@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #F6EAD4;
+    position: relative;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    max-width: 100%;
+    min-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header img {
+    width: 5%;
+    min-width: 40px;
+}
+.logo {
+    margin: 20px auto;
+    float: left;
+}
+nav {
+    float: right;
+    margin: 30px auto;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #5B3937;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content {
+    color: #5B3937;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.right-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 600px;
+    margin: 70px auto;
+}
+
+.left-content h1 {
+    font-weight: bold;
+    font-size: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 60px;
+}
+.left-content h3 {
+    font-weight: 500;
+    margin-right: 20px;
+    font-size: 55px;
+}
+.left-content h5 {
+    font-weight: 500;
+    line-height: 30px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.right-content img{
+    width: 330px;
+}
+.right-content img:hover{
+    transition: 1s;
+    transform: translateX(50%);
+}
+
+.subtittle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ordernow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+button {
+    width: 150px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #5B3937;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #5B3937;
+    font-size: 16px;
+}
+button:hover {
+    background: pink;
+    width: 200px;
+    transition: 0.5s;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #5B3937;
+}
+.content2 h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.article p {
+    margin: 10px auto;
+}
+.spacing {
+    height: 20px;
+    width: 100%;
+}
+.donut3 {
+    width: 30px;
+}
+.tittle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.article a{
+    text-decoration: none;
+    color: #5B3937;
+    font-weight: 600;
+}
+.jumbotron {
+    width: 100%;
+    height: 100px;
+}
+
+.products {
+    background: #f5f5f5;
+}
+.products h1 {
+    text-transform: uppercase;
+    color: #5B3937;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+}
+.products img {
+    max-width: 250px;
+}
+.pict {
+    background: #f5f5f5;
+    width: 280px;
+    height: 320px;
+    margin: 10px 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pict h5 {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.pict img {
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+picture {
+    display: flex;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tigadonat {
+    display: flex;
+    justify-content: center;
+}
+.tigadonat img {
+    max-width: 25px;
+    margin: 40px 10px;
+}
+.preorder h1 {
+    margin: 20px auto;
+    font-weight: 600;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5B3937;
+}
+.preorderpict {
+    display: flex;
+    flex-wrap: wrap;
+}
+.preorderpict img {
+    margin: 20px 20px;
+    max-height: 180px;
+}
+.preorderpict img:hover {
+    transform: scale(1.5);
+    transition: 0.2s;
+}
+
+footer {
+    background: #fff;
+    display:  flex;
+    flex-wrap: wrap;
+}
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+footer .address {
+    max-width: 550px;
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+}
+footer .address img {
+    max-width: 50px;
+}
+footer .address p {
+    margin: 20px;
+    line-height: 17px;
+    font-size: 14px;
+}
+footer .contactme {
+    margin: 20px auto;
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+footer .contactme .sosmed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .contactme h1 {
+    color: #111111;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+}
+footer .contactme .sosmed img {
+    max-width: 30px;
+    margin: 0 7px;
+}
+footer .contactme .sosmed .wa {
+    display: flex;
+}footer .contactme .sosmed .wa a {
+    color: #4CAF50;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+footer .contactme .sosmed .ig {
+    display: flex;
+}
+footer .contactme .sosmed .ig a {
+    color: #EC4A66;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
